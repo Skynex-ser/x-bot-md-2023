@@ -18,7 +18,10 @@
     <img alt="youtube" src="https://img.shields.io/badge/Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   
 ---
-
+<div align="center">
+      
+## _[Basic usage helper](https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD/wiki)_
+---
 ### FORK THIS REPO
 
 1. Must Fork This Repo Before Deployment !
