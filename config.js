@@ -1,61 +1,39 @@
+ // config beta endiless sparky
+
+module.exports = {
+  
+}
+
 const fs = require('fs')
 const chalk = require('chalk')
 
-
-
-//-----------------------
-// SESSION ID CONECTING 👇🏻
-//-------------------------
-module.exports = {
-SESSION_ID: '', //Put your session id here
-ALIVE: `HELLO I AM ALIVE`
-}
-/*
-
- Other Configurations are down 👇🏻
-
-
-*/
-//---------------------------------
-// Only use true/false
-//---------------------------------
-global.autoTyping = false //Auto typing...(true for on, false for off)
-global.autoRecord = false // Auto recording...(true for on, false for off)
-global.autoread = false // Auto Message read(true for on, false for off)
-global.alwaysonline = true // Always Online(true for on, false for off)
-global.statusread = true // Auto status read 🗿🖐🏻(true for on, false for off)
-global.private = true // worktype(true for private, false for public)
-global.autoreact = false // Auto react ( verum myra aah 🤣🙌🏻 )
-global.autodlyt = false // Auto YouTube video downloader(true for on, false for off)
-global.largethumb = "true" // for large thumbnail 
-global.version = "1.5.0"
-//---------------------------------
-// Required variables
-//---------------------------------
-global.prefix = "." // use "" for removing prefix
-global.ownername = "ᴛᴇᴀᴍ ᴇx-ʙᴏᴛ-ᴢ" // Bot Owner name
-global.botname = "x-ʙᴏᴛ-ᴍᴅ" //bot name
-global.thumb = "https://i.imgur.com/IIHEyLI.jpg" // bot image overall
-global.ownernumber = ["917012984396","917594898804","919961857267"] //SODO / OWNER NUMBER
-global.caption = "_*ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ x-ʙᴏᴛ-ᴍᴅ*_" // Caption 
-global.packname = `X-BOT-MD` //sticker pack
-global.author = "TEAM EX-BOT-Z 🗿" //sticker name
-//---------------------------------
-// Owner Mention Audio
-//---------------------------------
-global.ownermention = true // to turn off type false  || turn on type true 👌🏻
-global.mtitle = "X-Bot-Md" // mention tittle
-global.mbody = "TEAM EX BOT-Z" // mention discription 
-global.mthumb = 'https://i.imgur.com/J2x8YMw.jpg' // mention thumbnail 
-global.murl = 'https://instagram.com/aswin_sparky.exe'
-global.mentionaudio = ["https://i.imgur.com/h0mNy8p.mp4","https://i.imgur.com/zNWjhDn.mp4","https://i.imgur.com/Ya3325t.mp4","https://i.imgur.com/k4FE9mA.mp4","https://i.imgur.com/X5WGE9W.mp4","https://i.imgur.com/veoDgRH.mp4","https://i.imgur.com/CZ3eJgw.mp4","https://i.imgur.com/6QFiAoM.mp4","https://i.imgur.com/lAbt9ew.mp4"] //mention audios
-//---------------------------------
-// All in One Url ( you can add any url you want )
-//---------------------------------
-global.url = 'https://chat.whatsapp.com/JjzEUDkJgke1vPGK3GAvG6' // mention url
-//---------------------------------
-// No need of editing ( Edit aaki oombanda 🗿🖐🏻) kuduthal edit aakiyal kolamm aayum myra 🖐🏻🤣
-//---------------------------------
+global.waveform = ['00,99,00,99,00,99,00,99,00,99,00,99,00']
+global.autoTyping = false
+global.autoRecord = true 
+global.autoread = false
+global.alwaysonline = false
+global.worktype = 'good'
+global.ownername = "JOBIN-SER"
+global.botname = "SAMPLE-BOT-⚙️"
+global.packname = "Meow-bot-md"
+global.author = "COMING-SOON"
+global.version = "1.0.0"
+global.ownernumber = ["917593010965"]
+global.caption = "_*Holly Shit🤯*_"
+global.sparky = ['🗿']
+global.autoreact = false
+global.reactemoji = ['😨','😅','😂','😳','😎', '🥵', '😱', '🐦', '🙄', '🐤','🗿','🐦','🤨','🥴','😐','👆','😔', '👀','👎','🔥','💦','✂️','🍭']
+global.ownermention = true 
+global.murl = 'https://www.instagram.com/jobin_ser?igsh=MTljOWRtbGY0bW8zdw=='
+global.mentionaudio = ["https://i.imgur.com/h0mNy8p.mp4","https://i.imgur.com/zNWjhDn.mp4","https://i.imgur.com/Ya3325t.mp4","https://i.imgur.com/k4FE9mA.mp4","https://i.imgur.com/X5WGE9W.mp4","https://i.imgur.com/veoDgRH.mp4","https://i.imgur.com/CZ3eJgw.mp4","https://i.imgur.com/6QFiAoM.mp4","https://i.imgur.com/lAbt9ew.mp4","https://i.imgur.com/AcHHpqh.mp4","https://i.imgur.com/t7HKmDj.mp4","https://i.imgur.com/oJG0p1R.mp4","https://i.imgur.com/hCnMXIt.mp4","https://i.imgur.com/wduQUZ6.mp4","https://i.imgur.com/Ec1fHg6.mp4","https://i.imgur.com/ul9x6Fl.mp4","https://i.imgur.com/B6DuFxf.mp4","https://i.imgur.com/rTfVyTL.mp4","https://i.imgur.com/f06QQMw.mp4","https://i.imgur.com/hrOA7SZ.mp4","https://i.imgur.com/iXCTeqC.mp4","https://i.imgur.com/prb6egI.mp4","https://i.imgur.com/j8vAgTm.mp4","https://i.imgur.com/u1VIily.mp4","https://i.imgur.com/O36QHKi.mp4","https://i.imgur.com/tZC4JKd.mp4","https://i.imgur.com/KganHHA.mp4","https://i.imgur.com/DVTRwBc.mp4","https://i.imgur.com/LqkVfhp.mp4","https://i.imgur.com/SJiFZUE.mp4","https://i.imgur.com/WARShRy.mp4","https://i.imgur.com/hyQj2lx.mp4","https://i.imgur.com/txkM9qW.mp4","https://i.imgur.com/EprdRNJ.mp4","https://i.imgur.com/pP6NHPf.mp4","https://i.imgur.com/wODIlC7.mp4","https://i.imgur.com/rRPnnCq.mp4","https://i.imgur.com/xnfG7tg.mp4","https://i.imgur.com/k1lq9vs.mp4","https://i.imgur.com/qPkviUd.mp4","https://i.imgur.com/gv29aga.mp4","https://i.imgur.com/8HvdglZ.mp4","https://i.imgur.com/EfYQnb9.mp4","https://i.imgur.com/tIehcgC.mp4","https://i.imgur.com/VwzM3wV.mp4","https://i.imgur.com/WKpl7eS.mp4","https://i.imgur.com/5Wnd52w.mp4","https://i.imgur.com/eM3RypD.mp4","https://i.imgur.com/b5kXK5V.mp4","https://i.imgur.com/uLG516B.mp4","https://i.imgur.com/hP2TXKm.mp4","https://i.imgur.com/cZggJkF.mp4","https://i.imgur.com/RV8CnnC.mp4","https://i.imgur.com/5N26kvL.mp4","https://i.imgur.com/RlOinJI.mp4","https://i.imgur.com/58OLkaJ.mp4","https://i.imgur.com/EiHuGSL.mp4","https://i.imgur.com/tG96OYD.mp4","https://i.imgur.com/qOVkgkM.mp4","https://i.imgur.com/tkEmtyt.mp4","https://i.imgur.com/PgM9o1N.mp4","https://i.imgur.com/WoIAAyb.mp4","https://i.imgur.com/w8ilFA2.mp4","https://i.imgur.com/2AioS69.mp4","https://i.imgur.com/5NuWuit.mp4","https://i.imgur.com/rJl3Fmc.mp4","https://i.imgur.com/MyGVzKY.mp4","https://i.imgur.com/58sgxxs.mp4","https://i.imgur.com/GT48zNT.mp4","https://i.imgur.com/M5qqOOR.mp4","https://i.imgur.com/C6XmNBQ.mp4","https://i.imgur.com/qybdlnH.mp4","https://i.imgur.com/6Mo0t4S.mp4","https://i.imgur.com/7KutCqN.mp4","https://i.imgur.com/vY8CfI7.mp4","https://i.imgur.com/SBWolI2.mp4", "https://i.imgur.com/lXE9t3L.mp4", "https://i.imgur.com/ZyPPNWj.mp4", "https://i.imgur.com/CHiH1Ok.mp4", "https://i.imgur.com/vVUN1xe.mp4", "https://i.imgur.com/QMUvh09.mp4", "https://i.imgur.com/Nx8dBjn.mp4", "https://i.imgur.com/9QNKWMn.mp4", "https://i.imgur.com/Rlv7O5h.mp4", "https://i.imgur.com/Bni0cdc.mp4", "https://i.imgur.com/2zNy69a.mp4", "https://i.imgur.com/HHWRLEa.mp4", "https://i.imgur.com/fK0DOJ9.mp4", "https://i.imgur.com/zMkGLbZ.mp4", "https://i.imgur.com/NeXRU7X.mp4", "https://i.imgur.com/k5qtbzS.mp4", "https://i.imgur.com/Akrcr9E.mp4", "https://i.imgur.com/6ZfpymF.mp4", "https://i.imgur.com/9BUXHmG.mp4", "https://i.imgur.com/Xuf9UGx.mp4", "https://i.imgur.com/mn87C4j.mp4", "https://i.imgur.com/SqvKkfN.mp4", "https://i.imgur.com/QlGimEG.mp4", "https://i.imgur.com/QlGimEG.mp4", "https://i.imgur.com/IPYQrD6.mp4", "https://i.imgur.com/901twqT.mp4", "https://i.imgur.com/d81mV8w.mp4", "https://i.imgur.com/e4VHiYA.mp4", "https://i.imgur.com/7spG05d.mp4", "https://i.imgur.com/HmmDtii.mp4", "https://i.imgur.com/PimvgR0.mp4", "https://i.imgur.com/vypRYOT.mp4", "https://i.imgur.com/0CnmJ5j.mp4", "https://i.imgur.com/hVOMauX.mp4", "https://i.imgur.com/q4XpvfS.mp4", "https://i.imgur.com/VIgl1PH.mp4", "https://i.imgur.com/s6DBUmb.mp4", "https://i.imgur.com/jnu5ePG.mp4", "https://i.imgur.com/A7pE40z.mp4", "https://i.imgur.com/ZCUJYpj.mp4", "https://i.imgur.com/pIojlNH.mp4", "https://i.imgur.com/m4uSg0C.mp4", "https://i.imgur.com/Y6O8bY0.mp4", "https://i.imgur.com/j46pnex.mp4", "https://i.imgur.com/lfjvAKn.mp4", "https://i.imgur.com/p2Rzjnt.mp4", "https://i.imgur.com/CHQqsuo.mp4", "https://i.imgur.com/3EKNJK7.mp4", "https://i.imgur.com/VeCyS1b.mp4", "https://i.imgur.com/Z2WWoiq.mp4", "https://i.imgur.com/ElpaPmr.mp4", "https://i.imgur.com/4p21jVL.mp4", "https://i.imgur.com/Z25JW0g.mp4", "https://i.imgur.com/gkb9ooR.mp4", "https://i.imgur.com/bzLrzrO.mp4", "https://i.imgur.com/cOgGcak.mp4", "https://i.imgur.com/PRJ3mSm.mp4","https://i.imgur.com/V6dnSAe.mp4", "https://i.imgur.com/ILxdUaC.mp4", "https://i.imgur.com/Lsz1Du7.mp4", "https://i.imgur.com/RyvseEa.mp4", "https://i.imgur.com/P3WY8nw.mp4", "https://i.imgur.com/lr7b03h.mp4", "https://i.imgur.com/ax6EwOi.mp4", "https://i.imgur.com/X8iuOkP.mp4", "https://i.imgur.com/tnI2SR8.mp4", "https://i.imgur.com/3xMn61m.mp4", "https://i.imgur.com/J4o7x4v.mp4", "https://i.imgur.com/iP2m08x.mp4", "https://i.imgur.com/TxEuIoT.mp4", "https://i.imgur.com/i48PXIO.mp4", "https://i.imgur.com/aFiSnXr.mp4", "https://i.imgur.com/ejCIYrh.mp4", "https://i.imgur.com/ECRFsIB.mp4", "https://i.imgur.com/Ip6DS4W.mp4", "https://i.imgur.com/OUI5xGN.mp4", "https://i.imgur.com/oPqarKo.mp4", "https://i.imgur.com/SIMkxaM.mp4", "https://i.imgur.com/ylmq8rb.mp4", "https://i.imgur.com/u8fiCXb.mp4", "https://i.imgur.com/HncFK5F.mp4", "https://i.imgur.com/FrLp9AK.mp4", "https://i.imgur.com/VOmOawi.mp4", "https://i.imgur.com/6Xj5UXN.mp4", "https://i.imgur.com/sniwK4D.mp4", "https://i.imgur.com/Vy3YAXI.mp4", "https://i.imgur.com/eYxrNUf.mp4", "https://i.imgur.com/6QFiAoM.mp4", "https://i.imgur.com/lAbt9ew.mp4", "https://i.imgur.com/AcHHpqh.mp4", "https://i.imgur.com/t7HKmDj.mp4", "https://i.imgur.com/oJG0p1R.mp4", "https://i.imgur.com/hCnMXIt.mp4", "https://i.imgur.com/wduQUZ6.mp4", "https://i.imgur.com/Ec1fHg6.mp4", "https://i.imgur.com/ul9x6Fl.mp4", "https://i.imgur.com/B6DuFxf.mp4", "https://i.imgur.com/rTfVyTL.mp4", "https://i.imgur.com/f06QQMw.mp4", "https://i.imgur.com/hrOA7SZ.mp4", "https://i.imgur.com/iXCTeqC.mp4", "https://i.imgur.com/prb6egI.mp4", "https://i.imgur.com/j8vAgTm.mp4", "https://i.imgur.com/u1VIily.mp4", "https://i.imgur.com/O36QHKi.mp4", "https://i.imgur.com/tZC4JKd.mp4", "https://i.imgur.com/KganHHA.mp4", "https://i.imgur.com/DVTRwBc.mp4", "https://i.imgur.com/LqkVfhp.mp4", "https://i.imgur.com/SJiFZUE.mp4", "https://i.imgur.com/WARShRy.mp4", "https://i.imgur.com/hyQj2lx.mp4", "https://i.imgur.com/txkM9qW.mp4", "https://i.imgur.com/EprdRNJ.mp4", "https://i.imgur.com/pP6NHPf.mp4", "https://i.imgur.com/wODIlC7.mp4", "https://i.imgur.com/rRPnnCq.mp4", "https://i.imgur.com/xnfG7tg.mp4", "https://i.imgur.com/k1lq9vs.mp4", "https://i.imgur.com/qPkviUd.mp4", "https://i.imgur.com/gv29aga.mp4", "https://i.imgur.com/8HvdglZ.mp4", "https://i.imgur.com/EfYQnb9.mp4", "https://i.imgur.com/tIehcgC.mp4", "https://i.imgur.com/VwzM3wV.mp4", "https://i.imgur.com/WKpl7eS.mp4", "https://i.imgur.com/5Wnd52w.mp4", "https://i.imgur.com/eM3RypD.mp4", "https://i.imgur.com/b5kXK5V.mp4", "https://i.imgur.com/uLG516B.mp4", "https://i.imgur.com/hP2TXKm.mp4", "https://i.imgur.com/cZggJkF.mp4", "https://i.imgur.com/RV8CnnC.mp4", "https://i.imgur.com/5N26kvL.mp4", "https://i.imgur.com/RlOinJI.mp4", "https://i.imgur.com/58OLkaJ.mp4", "https://i.imgur.com/EiHuGSL.mp4", "https://i.imgur.com/tG96OYD.mp4", "https://i.imgur.com/qOVkgkM.mp4", "https://i.imgur.com/tkEmtyt.mp4", "https://i.imgur.com/PgM9o1N.mp4", "https://i.imgur.com/WoIAAyb.mp4", "https://i.imgur.com/w8ilFA2.mp4", "https://i.imgur.com/2AioS69.mp4", "https://i.imgur.com/5NuWuit.mp4", "https://i.imgur.com/rJl3Fmc.mp4", "https://i.imgur.com/MyGVzKY.mp4", "https://i.imgur.com/58sgxxs.mp4", "https://i.imgur.com/GT48zNT.mp4", "https://i.imgur.com/M5qqOOR.mp4", "https://i.imgur.com/C6XmNBQ.mp4", "https://i.imgur.com/qybdlnH.mp4", "https://i.imgur.com/6Mo0t4S.mp4", "https://i.imgur.com/7KutCqN.mp4", "https://i.imgur.com/vY8CfI7.mp4"] //mention audios
+global.autodlyt = false
+global.murl = "https://instagram.com/bino_sparky.exe"
+global.mtitle = "👽JOBIN-SER🍻"
+global.mbody = "🍓I-W-U🍒"
+global.url = 'https://www.instagram.com/jobin_ser?igsh=MTljOWRtbGY0bW8zdw==' // mention url
 global.IMGBB_KEY = ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"]
-global.reactemoji = ['😨','😅','😂','😳','😎', '🥵', '😱', '🐦', '🙄', '🐤','🗿','🐦','🤨','🥴','😐','👆','😔', '👀','👎','🔥','💦','✂️','🍭'] // auto react emoji
-global.sparky = ['☆','✼','　 ҉ ','❏','🍭','△'] // menu design's
+global.statusread = false
+global.private = false
+global.mthumb = "https://graph.org/file/243e6e28ce3c04a489f75.jpg"
+ global.thumb = "https://graph.org/file/2828c5c70c90bb7b463c7.jpg" // mention thumbnail
+global.prefix = ""
